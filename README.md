@@ -1,5 +1,9 @@
 # nexlabtest
 
+Test Account : 
+email: nguyenphat@gmail.com
+password: 123456
+
 A new Flutter project.
 
 Flutter version: 3.35.1, Dart version: 3.9.2
