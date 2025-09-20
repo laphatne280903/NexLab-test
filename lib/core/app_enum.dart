@@ -1,0 +1,1 @@
+enum CommonStatus { success, failure, initial, loading, message, actionSuccess }

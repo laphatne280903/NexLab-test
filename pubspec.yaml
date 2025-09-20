@@ -1,0 +1,53 @@
+name: nexlabtest
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  cached_network_image: ^3.4.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_launcher_icons: ^0.14.4
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.2.1
+  freezed_annotation: ^2.4.4
+  get_it: ^8.2.0
+  injectable: ^2.5.0
+  loading_indicator: ^3.1.1
+  logger: ^2.6.1
+  shared_preferences: ^2.0.15
+  toastification: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  # For Dependency Injection
+  injectable_generator: ^2.1.5
+  flutter_lints: ^5.0.0
+  flutter_gen_runner:
+
+
+flutter_gen:
+  output: lib/gen/   
+  integrations:
+    flutter_svg: true 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path_android: "assets/icons/logo.png"
+  image_path_ios: "assets/icons/logo.png"
