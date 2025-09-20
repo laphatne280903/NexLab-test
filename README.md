@@ -1,8 +1,12 @@
 # nexlabtest
 
-Test Account : 
+### Test Account : 
 email: nguyenphat@gmail.com
 password: 123456
+
+### Feat:
+Login, display, CRUD contact list.
+Clean Architecture, Bloc state management.
 
 A new Flutter project.
 
