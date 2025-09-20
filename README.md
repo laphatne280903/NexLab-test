@@ -3,9 +3,13 @@
 ###Source code: Branch develop
 
 ### Test Account : 
-email: nguyenphat@gmail.com
-password: 123456
+- email: nguyenphat@gmail.com
+- password: 123456
 
+- email: "latuine@gmail.com",
+- password: "654321"
+
+  
 ### Feat:
 Login, display, CRUD contact list.
 Clean Architecture, Bloc state management.
